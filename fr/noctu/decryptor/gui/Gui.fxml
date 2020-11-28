@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.noctu.decryptor.gui.Controller">
+   <children>
+      <TextArea fx:id="encrypted" layoutX="22.0" layoutY="26.0" prefHeight="257.0" prefWidth="453.0" />
+      <Label layoutX="22.0" layoutY="6.0" text="Past the encrypted script here !" />
+      <Button layoutX="220.0" layoutY="288.0" mnemonicParsing="false" onAction="#onDecryptIsClicked" text="Decrypt" />
+      <TextArea fx:id="decrypted" editable="false" layoutX="24.0" layoutY="322.0" prefHeight="257.0" prefWidth="453.0" />
+      <Label layoutX="442.0" layoutY="6.0" text="By NOctu" />
+   </children>
+</AnchorPane>
